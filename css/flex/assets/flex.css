@@ -1,0 +1,31 @@
+
+.content{
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: flex-direction flex-wrap*/
+    flex-flow: row nowrap;
+
+    /**/
+    justify-content:space-around;
+
+}
+
+.content{
+    background: #0edaff;
+    padding: 10px;
+}
+
+.item{
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(240, 79, 26, 0.36);
+    color: #ccc;
+    text-align: center;
+    padding: 30px;
+    display: block;
+}
+
+.item span{
+    font-size: 50px;
+}
